@@ -1,0 +1,38 @@
+.btn {
+  border: none;
+  border-radius: 50%;
+  background-color: ghostwhite;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.3);
+}
+
+.check {
+  cursor: pointer;
+}
+.check:checked + label {
+  text-decoration: line-through;
+}
+.check:hover {
+  transform: scale(1.3);
+}
+
+.task-name {
+  padding-left: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: calc(100% - 40px);
+}
+
+.contenedor {
+  position: relative;
+  max-width: 440px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px 2px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

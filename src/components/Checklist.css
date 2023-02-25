@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(149, 72, 221, 0.865);
+}
+.send-btn {
+  border-color: rgba(184, 142, 223, 0.705);
+  border-radius: 4px;
+  padding: 0.6em 1em;
+  cursor: pointer;
+  background-color: rgba(227, 208, 244, 0.76);
+}
+.task-input {
+  border-color: rgba(184, 142, 223, 0.322);
+  border-radius: 4px;
+  width: 80%;
+  height: 29px;
+  margin: 0.5rem;
+  margin-bottom: 0%;
+}
+
+.container {
+  position: relative;
+}

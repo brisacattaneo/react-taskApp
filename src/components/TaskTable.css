@@ -1,0 +1,9 @@
+.encabezado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-left: 2%;
+}
+
+.task-list{
+padding-left: 9px;
+}
